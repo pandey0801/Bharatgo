@@ -1,0 +1,54 @@
+.orders-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .orders-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .no-orders {
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .order-details {
+    text-align: left;
+  }
+  
+  .order-date {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .orders-table th, .orders-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .orders-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .total-amount {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d9534f;
+  }
+  
