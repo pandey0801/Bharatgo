@@ -257,6 +257,11 @@ function Login() {
         <button className="switch-btn" onClick={switchMode}>
           {isLogIn ? "Create an account" : "Have an account? Log In"}
         </button>
+
+        <button type="button" className="guest-btn" onClick={() => dispatch(login({ token: "guest" }))}>
+  Login as Guest
+</button>
+
       </div>
     </div>
   );
